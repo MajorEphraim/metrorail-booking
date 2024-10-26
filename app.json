@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "metrorail_booking",
-    "slug": "metrorail_booking",
+    "name": "metro_booking",
+    "slug": "metro_booking",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.metrorail"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ncube.metro_booking"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "60da9823-4958-4368-a315-68cd287944d8"
+      }
     }
   }
 }
